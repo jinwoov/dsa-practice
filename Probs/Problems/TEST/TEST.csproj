@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FourSum\FourSum.csproj" />
     <ProjectReference Include="..\Problems\Fibonacci.csproj" />
   </ItemGroup>
 
