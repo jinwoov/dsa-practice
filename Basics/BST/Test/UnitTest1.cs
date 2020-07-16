@@ -1,3 +1,4 @@
+using BST;
 using BST.Class;
 using System;
 using Xunit;
@@ -49,6 +50,34 @@ namespace Test
             bst.Insert(bst.Root, 6);
 
             Assert.True(bst.Contains(bst.Root, 6));
+        }
+
+        [Fact]
+        public void CannotFindSumAtLeaf()
+        {
+            BinarySearchTree bst = new BinarySearchTree();
+            bst.Insert(bst.Root, 5);
+            bst.Insert(bst.Root, 7);
+            bst.Insert(bst.Root, 4);
+
+            bst.Insert(bst.Root, 6);
+
+            bool result =Program.SumContains(bst.Root, 4);
+            Assert.False(result);
+        }
+
+        [Fact]
+        public void CanFindSumAtLeaf()
+        {
+            BinarySearchTree bst = new BinarySearchTree();
+            bst.Insert(bst.Root, 5);
+            bst.Insert(bst.Root, 7);
+            bst.Insert(bst.Root, 4);
+            bst.Insert(bst.Root, 3);
+            bst.Insert(bst.Root, 6);
+
+            bool result = Program.SumContains(bst.Root, 12);
+            Assert.True(result);
         }
     }
 }
