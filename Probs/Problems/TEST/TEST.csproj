@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Problems\Problems.csproj" />
+    <ProjectReference Include="..\Problems\Fibonacci.csproj" />
   </ItemGroup>
 
 </Project>
