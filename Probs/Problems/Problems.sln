@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Problems\Fibonacci.csproj", "{5E4A040C-B718-4F55-9A0E-138A4F5E9969}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Problems\Fibonacci.csproj", "{5E4A040C-B718-4F55-9A0E-138A4F5E9969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST", "TEST\TEST.csproj", "{0565B27E-DE02-4EC4-8936-8B36A1C305C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TEST", "TEST\TEST.csproj", "{0565B27E-DE02-4EC4-8936-8B36A1C305C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourSum", "FourSum\FourSum.csproj", "{539523F2-1210-4ECD-AB84-24F2591297E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FourSum", "FourSum\FourSum.csproj", "{539523F2-1210-4ECD-AB84-24F2591297E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicate", "RemoveDuplicate\RemoveDuplicate.csproj", "{D830FF0A-D8B7-45AA-BF62-435F8B753934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicate", "RemoveDuplicate\RemoveDuplicate.csproj", "{D830FF0A-D8B7-45AA-BF62-435F8B753934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutation", "Permutation\Permutation.csproj", "{48412198-ED38-467A-BAE1-DE125A82B966}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D830FF0A-D8B7-45AA-BF62-435F8B753934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D830FF0A-D8B7-45AA-BF62-435F8B753934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D830FF0A-D8B7-45AA-BF62-435F8B753934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48412198-ED38-467A-BAE1-DE125A82B966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48412198-ED38-467A-BAE1-DE125A82B966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48412198-ED38-467A-BAE1-DE125A82B966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48412198-ED38-467A-BAE1-DE125A82B966}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
