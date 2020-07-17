@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST", "TEST\TEST.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourSum", "FourSum\FourSum.csproj", "{539523F2-1210-4ECD-AB84-24F2591297E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicate", "RemoveDuplicate\RemoveDuplicate.csproj", "{D830FF0A-D8B7-45AA-BF62-435F8B753934}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{539523F2-1210-4ECD-AB84-24F2591297E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{539523F2-1210-4ECD-AB84-24F2591297E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{539523F2-1210-4ECD-AB84-24F2591297E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D830FF0A-D8B7-45AA-BF62-435F8B753934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D830FF0A-D8B7-45AA-BF62-435F8B753934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D830FF0A-D8B7-45AA-BF62-435F8B753934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D830FF0A-D8B7-45AA-BF62-435F8B753934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

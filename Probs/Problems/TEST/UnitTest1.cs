@@ -1,4 +1,5 @@
 using Problems;
+using RemoveDuplicate;
 using System;
 using Xunit;
 
@@ -34,6 +35,15 @@ namespace TEST
             int result = FourSum.FourSum.FourSums(a, b, c, d);
 
             Assert.Equal(540, result);
+        }
+
+        [Fact]
+        public void RemoveDuplicate()
+        {
+            int[] r = { 1, 1, 4, 5, 6, 9 };
+            int t = ReDu.RemoveDup(r);
+
+            Assert.Equal(5, t);
         }
     }
 }
