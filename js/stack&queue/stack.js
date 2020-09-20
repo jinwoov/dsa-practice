@@ -30,16 +30,6 @@ class Stack {
     isEmpty = () => this.top == null;
 }
 
-let s = new Stack();
-s.push(5);
-s.push(3);
-
-console.log(s.pop());
-console.log(s.pop());
-
-console.log(s.peek());
-
-console.log(s.isEmpty());
 
 
 module.exports = Stack;
