@@ -1,0 +1,20 @@
+{
+  "name": "dsa-practice",
+  "version": "1.0.0",
+  "description": "Algorithmic structure data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinwoov/dsa-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinwoov/dsa-practice/issues"
+  },
+  "homepage": "https://github.com/jinwoov/dsa-practice#readme"
+}
