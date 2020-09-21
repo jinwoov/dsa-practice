@@ -1,5 +1,5 @@
 from node import Node
-from queue import Queue
+from collections import deque
 
 class BinaryTree:
     def preOrder(self, roots: Node):
@@ -27,9 +27,20 @@ class BinaryTree:
             print(roots.value)
 
     def breadthFirst(self, roots):
-        if(roots == None)
+        if(roots == None):
             return
         else:
-            q = Queue.
+            q = deque()
+            q.append(roots)
+            while(q.__len__() > 0): 
+                temp = q.popleft()
+                print(temp.value)
+                if (temp.left != None):
+                    q.append(temp.left)
+                if (temp.right != None):
+                    q.append(temp.right)
+            
+
+
             
             
