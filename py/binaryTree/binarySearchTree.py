@@ -20,7 +20,18 @@ class BinarySearchTree:
                 else:
                     roots.right = self.insert(roots.right, val)
                 return roots
-            
+        
+    
+    def contains(self, roots, searchVal):
+        if(roots is None):
+            return False
+        else:
+            if(roots.value == searchVal):
+                return True
+            elif(roots.value >= searchVal):
+                return self.contains(roots.left, searchVal)
+            else:
+                return self.contains(roots.right, searchVal)
 
 
 bst = BinarySearchTree()
@@ -30,8 +41,10 @@ bst.insert(bst.root, 4)
 bst.insert(bst.root, 7)
 bst.insert(bst.root, 8)
 
-bt = BinaryTree()
-#bt.preOrder(bst.root)
-#bt.inOrder(bst.root)
-# bt.postOrder(bst.root)
-bt.breadthFirst(bst.root)
+result = bst.contains(bst.root, 7)
+print(result)
+# bt = BinaryTree()
+# #bt.preOrder(bst.root)
+# #bt.inOrder(bst.root)
+# # bt.postOrder(bst.root)
+# bt.breadthFirst(bst.root)
