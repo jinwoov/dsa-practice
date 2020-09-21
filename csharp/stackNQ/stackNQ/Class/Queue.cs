@@ -23,5 +23,20 @@ namespace stackNQ.Class
             }
         }
 
+        public T Dequeue()
+        {
+            if (Front == null)
+                throw new Exception("Nothing in the queue");
+            else
+            {
+                var temp = Front;
+                Front = Front.Next;
+                return temp.Value;
+            }
+        }
+
+        public T Peek() => Front == null ? throw new Exception("Nothing in the queue") : Front.Value;
+
+        public bool IsEmpty() => Front == null;
     }
 }
