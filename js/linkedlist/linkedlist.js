@@ -111,3 +111,5 @@ ll.insertAfterSV(400, 200);
 ll.kthFromEnd(3);
 
 ll.print();
+
+module.exports = LinkedList;
