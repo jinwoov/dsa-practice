@@ -2,9 +2,9 @@
 Data structure of each language
 
 ---
-![Application License](https://img.shields.io/github/license/jinwoov/OPS301)
-![Last Committed](https://img.shields.io/github/last-commit/jinwoov/OPS301)
-![Most Used Language](https://img.shields.io/github/languages/top/jinwoov/OPS301)   
+![Application License](https://img.shields.io/github/license/jinwoov/dsa-practice)
+![Last Committed](https://img.shields.io/github/last-commit/jinwoov/dsa-practice)
+![Most Used Language](https://img.shields.io/github/languages/top/jinwoov/dsa-practice)   
 
 ---
 
